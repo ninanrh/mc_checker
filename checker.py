@@ -56,7 +56,7 @@ for file in files:
 # 6. no of correct answer per student
 result = pd.DataFrame(all_data.sum(axis = 0, skipna = True))
 result.rename(columns={result.columns[0]:"correct_answer"}, inplace=True)
-result['score'] = result[result.columns[0]]/120*100
+result['score'] = result[result.columns[0]]/answer_key.shape[0]*100
 result['score'] = result.score.astype(int)
 result.to_excel("Result of "+nama_folder+".xlsx")
 
