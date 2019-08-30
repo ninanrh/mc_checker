@@ -2,7 +2,7 @@
 # this code works only for multiple choice questions
 
 ## prepare key answer & student answer with the format:
-### A1: text "NO" for key answer file and text "NAME";
+### A1: text "Number" for key answer file and text "NAME" for student answer files;
 ### B1: text "key_answer" for key answer file and text the name of the student for student answer file;
 ### A2 and below: the question numbers;
 ### B2 and below: the answer key according to each question numbers;
